@@ -343,7 +343,7 @@ def play_game(word_list):
 
     assert type(word_list) == list, "type mismatch in play_game"
 
-    n = 7
+    n = HAND_SIZE
     hand = {}
 
     while True:
